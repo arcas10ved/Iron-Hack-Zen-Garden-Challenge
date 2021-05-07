@@ -1,0 +1,150 @@
+/* color palette */
+:root {
+    --white: #fff;
+    --grey: #545454;
+    --purple: #EF29B2;
+}
+
+/* reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #E0E0E0;
+    font-family: "Lato";
+}
+
+body {
+    background-color: #E0E0E0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* top main box */
+#top {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 6px 6px 5px #B0B0B0;
+}
+#top div {
+    margin-left: 40px;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+}
+#top div h1 {
+    color: var(--grey);
+    font-size: 50px;
+}
+#top div b {
+    color: var(--purple);
+}
+#top div h2 {
+    font-size: 20px;
+    color: var(--grey);
+}
+
+/* headers */
+h3 {
+    padding: 5px 0px 0px 5px;
+    font-size: 24px;
+    color: #545454;
+    background: repeating-linear-gradient(-55deg, #E9E9E9 10px, #FFF 25px, #E9E9E9 10px, #FFF 2px);
+}
+
+/* left side */
+#left {
+    float: left;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+/* right side */
+#right {
+    margin-left: 240px;
+    margin-right: -15px;
+}
+
+/* left navigation menu */
+.nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted gray;
+}
+.nav h4 {
+    color: var(--purple);
+    font-weight: 800;
+}
+.nav b {
+    color: var(--grey);
+}
+
+/* boxes */
+.box {
+    min-width: 230px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 5px #B0B0B0;
+    margin: 15px;
+}
+
+.box p {
+    /*text-align: justify;*/
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+/* right 1 */
+.box1 {
+    padding-left: 110px;
+}
+.box1 p {
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+.box1 .background {
+    padding-top: 10px;
+    margin-bottom: -5px;
+    background: repeating-linear-gradient(-55deg, #E9E9E9 10px, #FFF 25px, #E9E9E9 10px, #FFF 2px);
+}
+.box1 .links {
+    padding-top: 20px;
+}
+
+/* right 2 */
+.box2 {
+    padding-right: 110px;
+}
+
+/* right 3 */
+.box3 {
+    padding-left: 110px;
+}
+
+/* right 4 */
+.box4 {
+    padding-right: 110px;
+}
+
+.box4 span {
+    color: var(--purple);
+}
+
+/* right 5 */
+.box5 {
+    padding-left: 110px;
+}
+u {    
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
